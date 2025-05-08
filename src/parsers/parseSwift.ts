@@ -4,7 +4,6 @@ interface MessageData {
 	accountNumber: string;
 	currency: string;
 	availableBalance?: number;
-	// Añadir campos adicionales para formato PRT si es necesario
 	transactionDate?: string;
 	referenceNumber?: string;
 }
