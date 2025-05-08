@@ -8,7 +8,7 @@ interface MessageData {
 	referenceNumber?: string;
 }
 
-export function parseSWIFTFile(
+export default function parseSWIFTFile(
 	fileContent: string,
 	format: string = "standard"
 ): MessageData[] {
